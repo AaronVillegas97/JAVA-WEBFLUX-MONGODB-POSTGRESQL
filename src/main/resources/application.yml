@@ -1,0 +1,13 @@
+spring:
+  r2dbc:
+    username: root
+    password: root
+    url: r2dbc:postgresql://localhost:5432/gestorpedidos
+  data:
+    mongodb:
+      database: gestorpedidos
+      host: localhost
+      port: 27017
+
+server:
+  port: 9292
